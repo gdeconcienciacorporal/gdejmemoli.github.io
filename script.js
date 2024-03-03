@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
    // Datos para el gráfico de líneas
 
   const dataLine1 = {
-  labels: ['Día 1', 'Día 2', 'Día 3', 'Día 4','Dia 5', 'Dia 6'], // Etiquetas de los días
+  labels: ['Día 1', 'Día 2', 'Día 3', 'Día 4','Dia 5'], // Etiquetas de los días
   datasets: [{
     label: 'Km recorridos en Semana 5',
     data: [20, 15, 19, 22, 13], // Datos de los km recorridos en cada día
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 };
 
 const dataLine2 = {
-  labels: ['Día 1', 'Día 2', 'Día 3', 'Día 4','Dia 5', 'Dia 6'], // Etiquetas de los días
+  labels: ['Día 1', 'Día 2', 'Día 3', 'Día 4','Dia 5'], // Etiquetas de los días
   datasets: [{
     label: 'Km recorridos en Semana 6',
     data: [14, 20, 15, 19, 13], // Datos de los km recorridos en cada día 
