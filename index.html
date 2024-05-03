@@ -10,141 +10,145 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="gde1.png" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
  <div class="container">
-        <div class="main-container">
-            <h1>PROGRAMA DE ENTRENAMIENTO GDE -Trail Running</h1>
-            <h2>Alumno: Javier Memoli </h2>
-        </div>
-            <h2>Objetivo mensual: Mejorar la fluidez en bajada. </h2>
-            <h2>Fase: Adquisición</h2>
-            <h2 id ="pageTitle"> Próxima carrera Valholl: 2024/05/10 </h2> 
-            <p id="result"></p>
-            <!-- <p>Indicaciones previas: -->
-                
-            <div class="sub-container">
-                <h4>SEMANA 11</h4>
-                <p>Objetivo semanal: Buscar trabajar a buenas sensaciones, ritmos prolijos.  </p>
-                <div>
-                    <h2>Entrada en calor </h2>   <p> 4 vueltas x 12 repeticiones </p>
-                <div class="image-container">  
-                  <video width="100%" class="responsive-video" style="margin-top: 35px;" controls>            
-                    <source src="Video1.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="image-container">  
-                  <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
-                    <source src="Video2.mp4" type="video/mp4">
-                    </video>
-                </div>
-                </div>
-            </div>    
-            <div><h2> Running </h2>
-            </div>    
-            <div class="column-container 1">           
-                <div class="column">
-                    <h3>Dia 1</h3>
-                    <p> Miércoles mañana: 16 km	calle, lo más llano posible. </p>
-                        <p> -3 km fuertes.</p>
-                        <p> -3 km, 2' fuertes x 2' suaves. </p>
-                        <p> -4 km, 30" agiles x 30" suave.</p>
-                        <p> -6 km a buenas sensaciones.</p>
-                </div>
-                <div class="column">
-                    <h3>Dia 2</h3>
-                    <p> Viernes mañana: 4 km calle, 2km fuertes x 2km al mejor ritmo posible. </p>
-                    <p> Viernes tarde: 12 km trail por el Frías, pulsaciones bajas. </p>
-                        <p> -1 km fuerte.</p>
-                        <p> -11	km suaves, a pulsaciones bajas.</p>
-                </div>
-                <div class="column">
-                    <h3>Dia 3 </h3>
-                    <p> Sábado: 17 km trail Cerro Mano. </p>
-                </div>
-                <div class="column">
-                    <h3>Dia 4</h3>        
-                    <p> Lunes: 17 km trail Arco pulsaciones.</p>
-                        <p> -2 km de menor a mayor.</p>
-                        <p> -15	km pulsaciones bajas, buenas sensaciones.</p>
-                </div>  
-            </div>   
-            <div class="small-paragraph-container">
-                <p> Método de recuperación </p>
-                <p> -Masaje con rolo al final de todos los entrenos, sobre el gluteo (2' 3 veces con cada lado).  </p>     
-            </div>
-        </div>
-            
-            <div id="column-container 1">
-            <canvas id="myChart-line-1"></canvas>
-            </div>
-                        
-            <div class="sub-container">
-            <h4>SEMANA 12</h4>
-            <p>Objetivo semanal: Trabajar sobre pequeños fragmentos de carrera. </p>
-            <div>
-                <h2>Entrada en calor </h2>   <p> 3 vueltas x 13 repeticiones </p>
-            <div class="image-container">  
-              <video width="100%" class="responsive-video" style="margin-top: 35px;" controls>            
-                <source src="Video3.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="image-container">  
-              <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
-                <source src="Video4.mp4" type="video/mp4">
-                </video>
-            </div>
-            </div>
-        </div>
-        <div><h2> Running </h2>
-        </div>
-        <div class="column-container 1">           
-            <  <div class="column">
-                <h3>Dia 1</h3>
-                <p> Miércoles mañana: 25 km	trail zona de Arco. </p>
-                    <p> -4 km fuertes desde la Iglesia.</p>
-                    <p> -3 km *300m fuertes corriendo x 100m trote suave x 100m trekking exigido.</p>
-                    <p> -10	km	buenas sensaciones.</p>
-                    <p> -8	km	bajada fuerte, suelto.</p>
-            </div>
-            <div class="column">
-                <h3>Dia 2</h3>
-                <p> Viernes mañana: 10 km trail Frías.</p>
-                    <p> -1 km fuertísimooo.</p>
-                    <p> -4 km al mejor ritmo posible.</p>
-                    <p> -5 km buenas sensaciones.</p>
-            </div>
-            <div class="column">
-                <h3>Dia 3 </h3>
-                <p> Sábado: 14 km trail zona del Arco suave.</p>
-                    <p> -3 km fuertísimosss.</p>
-                    <p> -7 km suave énfasis en la respiración y postura de hombros.</p>
-                    <p> -4 km fuertísimosss.</p>
-            </div>
-            <div class="column">
-                <h3>Dia 4</h3>        
-                <p> Lunes: 8 km Parque de Montaña. </p>
-                    <p> -2 km fuertes.</p>
-                    <p> -2 km de menos a más.</p>
-                    <p> -4 km de buenas sensaciones.</p>
-            </div>
-        </div>
-
-        <div class="small-paragraph-container">
-            <p> Método de recuperación </p>
-            <p> -Masaje con rolo al final de todos los entrenos, sobre el tensor de la  fasia lata  (2' 3 veces con cada lado).</p>     
-        </div> 
-                   
-        <div id="column-container 2">
-        <canvas id="myChart-line-2"></canvas>
-        </div>      
-        
-        <div class="image-container">
-            <img class="imagen-chica" src="logo gde blanco horizontal.png" alt="Logo Gde horizontal">
-          </div>      
-
+    <div class="main-container">
+        <h1>PROGRAMA DE ENTRENAMIENTO GDE -Trail Running</h1>
+        <h1>Alumno: Javier Memoli </h1>
     </div>
+        <h2>Objetivo mensual: Mejorar la fluidez en bajada. </h2>
+        <h2>Fase: Adquisición</h2>
+        <h2 id ="pageTitle"> Próxima carrera Valholl: 2024/05/10 </h2> 
+        <h2 id="result"></h2>
+        <!-- <p>Indicaciones previas: -->
+                
+    <div class="sub-container">
+        <h4>SEMANA 11
+            <br>Objetivo semanal: Buscar trabajar a buenas sensaciones, ritmos prolijos.</br>
+        </h4>
+        <p>Entrada en calor </p>   
+        <p> 4 vueltas x 12 repeticiones </p>
+        <div class="video-container">
+            <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
+                <source src="Video1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
+                <source src="Video2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>    
+
+    <div><h2> Running </h2> 
+    </div>    
+    <div class="column-container 1">           
+        <div class="column">
+            <h3>Dia 1</h3>
+            <p> Miércoles mañana: 16 km	calle, lo más llano posible. </p>
+            <p> -3 km fuertes.</p>
+            <p> -3 km, 2' fuertes x 2' suaves. </p>
+            <p> -4 km, 30" agiles x 30" suave.</p>
+            <p> -6 km a buenas sensaciones.</p>
+        </div>
+        <div class="column">
+            <h3>Dia 2</h3>
+            <p> Viernes mañana: 4 km calle, 2km fuertes x 2km al mejor ritmo posible. </p>
+            <p> Viernes tarde: 12 km trail por el Frías, pulsaciones bajas. </p>
+            <p> -1 km fuerte.</p>
+            <p> -11	km suaves, a pulsaciones bajas.</p>
+        </div>
+        <div class="column">
+            <h3>Dia 3 </h3>
+            <p> Sábado: 17 km trail Cerro Mano. </p>
+            </div>
+            <div class="column">
+            <h3>Dia 4</h3>        
+            <p> Lunes: 17 km trail Arco pulsaciones.</p>
+            <p> -2 km de menor a mayor.</p>
+            <p> -15	km pulsaciones bajas, buenas sensaciones.</p>
+        </div>  
+    </div>   
+    <div class="small-paragraph-container">
+            <p> Método de recuperación </p>
+            <p> -Masaje con rolo al final de todos los entrenos, sobre el gluteo (2' 3 veces con cada lado).  </p>     
+     </div>
+                
+    <div id="column-container 1">
+        <canvas id="myChart-line-1"></canvas>
+    </div>
+                        
+    <div class="sub-container">
+        <h4>SEMANA 12
+        <br>Objetivo semanal: Trabajar sobre pequeños fragmentos de carrera. </h4>
+
+        <p>Entrada en calor </p>   
+        <p> 3 vueltas x 13 repeticiones </p>
+        <div class="video-container">
+            <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
+                <source src="Video3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-container">
+            <video width="100%"  class="responsive-video" style="margin-top: 35px;" controls>
+                <source src="Video4.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div><h2> Running </h2>
+    </div>
+    <div class="column-container 1">           
+        <div class="column">
+            <h3>Dia 1</h3>
+            <p> Miércoles mañana: 25 km	trail zona de Arco. </p>
+            <p> -4 km fuertes desde la Iglesia.</p>
+            <p> -3 km *300m fuertes corriendo x 100m trote suave x 100m trekking exigido.</p>
+            <p> -10	km	buenas sensaciones.</p>
+            <p> -8	km	bajada fuerte, suelto.</p>
+        </div>
+        <div class="column">
+            <h3>Dia 2</h3>
+            <p> Viernes mañana: 10 km trail Frías.</p>
+            <p> -1 km fuertísimooo.</p>
+            <p> -4 km al mejor ritmo posible.</p>
+            <p> -5 km buenas sensaciones.</p>
+        </div>
+        <div class="column">
+            <h3>Dia 3 </h3>
+            <p> Sábado: 14 km trail zona del Arco suave.</p>
+            <p> -3 km fuertísimosss.</p>
+            <p> -7 km suave énfasis en la respiración y postura de hombros.</p>
+            <p> -4 km fuertísimosss.</p>
+        </div>
+        <div class="column">
+            <h3>Dia 4</h3>        
+            <p> Lunes: 8 km Arco. </p>
+            <p> -4 km fuertes.</p>
+            <p> -2 km de menos a más.</p>
+            <p> -4 km de buenas sensaciones.</p>
+        </div>
+    </div>
+
+    <div class="small-paragraph-container">
+        <p> Método de recuperación </p>
+        <p> -Masaje con rolo al final de todos los entrenos, sobre el tensor de la  fasia lata  (2' 3 veces con cada lado).</p>     
+    </div> 
+                   
+    <div id="column-container 1">
+    <canvas id="myChart-line-2"></canvas>
+    </div>      
+        
+    <div class="image-container">
+        <img class="imagen-chica" src="Montaña blanco.png" alt="Montaña blanco">
+        </div>      
+
+</div>
     <script src="script.js"></script>
 </body>
 </html>
