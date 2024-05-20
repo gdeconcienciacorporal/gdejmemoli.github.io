@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
   setInterval(actualizarDiasRestantes, 24*60*60*1000); // Actualizar diario
    // Datos para el gráfico de líneas
 const dataLine1 = {
-  labels: ['Día 1', 'Día 2', 'Día 3', 'Dia 4'], // Etiquetas de los días
+  labels: ['Día 1', 'Día 2', 'Día 3', 'Día 4'], // Etiquetas de los días
   datasets: [{
-    label: 'Km recorridos en Semana 13',
-    data: [5, 4, 80, 11], // Datos de los km recorridos en cada día
+    label: 'Km recorridos en Semana 15',
+    data: [16, 23, 22, 14], // Datos de los km recorridos en cada día
     borderColor: 'rgba(75, 192, 192, 1)',
     fill: true,
     tension: 0.1
@@ -14,10 +14,10 @@ const dataLine1 = {
 };
 
 const dataLine2 = {
-  labels: ['Día 1', 'Día 2', 'Día 3', 'Dia 4'], // Etiquetas de los días
+  labels: ['Día 1', 'Día 2', 'Día 3','Día 4'], // Etiquetas de los días], // Etiquetas de los días
   datasets: [{
-    label: 'Km recorridos en Semana 14',
-    data: [13, 24, 18, 15], // Datos de los km recorridos en cada día
+    label: 'Km recorridos en Semana 16',
+    data: [13, 25, 28, 20], // Datos de los km recorridos en cada día
     borderColor: 'rgba(153, 102, 255, 1)',
     fill: true,
     tension: 0.1
